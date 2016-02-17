@@ -57,6 +57,7 @@ public class FtcOpModeRegister implements OpModeRegister {
 
     manager.register("AIOp", AIOp.class);
     manager.register("AIOpRecord", AIOpRecord.class);
+    manager.register("NullOp", NullOp.class);
   }
 }
 
